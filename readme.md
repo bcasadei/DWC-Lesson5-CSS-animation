@@ -4,7 +4,7 @@ This project is a responsive and visually appealing form built using **HTML, CSS
 
 ## Features
 
-- **Animated Buttons:** A hover effect that enlarges and changes the shadow of the button.
+- **Animated Buttons:** A hover effect that enlarges and changes the shadow of the buttons.
 - **Stylish Form:** A gradient background with smooth animations.
 - **Form Submission:** Uses JavaScript to handle form submissions and display the entered data in an alert.
 
