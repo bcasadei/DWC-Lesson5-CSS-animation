@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #303030;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 37.5rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.btn {
+  padding: 1rem;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0.3rem;
+  width: 20rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px #303030;
+  color: #ffffff;
+  background: linear-gradient(45deg, #ff8800 0%, #ff0000 51%, #fed4a4 100%);
+  box-shadow: 0 0 2rem transparent;
+}
+.btn:hover {
+  transform: translateY(-8px) scale(1.2);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 2rem #000000;
+}
+
+/* Animated gradient div */
+.myDiv {
+  width: 370px;
+  min-height: 50vh;
+  text-align: right;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(206, 219, 233, 1) 0%,
+    rgba(97, 153, 199, 1) 30%,
+    rgba(65, 154, 214, 1) 40%,
+    rgba(75, 184, 240, 1) 71%,
+    rgba(38, 85, 139, 1) 100%
+  );
+  background-size: 100%;
+  background-position: center;
+  animation: gradient 3s ease infinite;
+  -webkit-animation: gradient 3s ease infinite;
+  -moz-animation: gradient 3s ease infinite;
+}
+/* Animation */
+@keyframes gradient {
+  50% {
+    background-size: 300%;
+  }
+}
+
+.form label {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.form input {
+  padding: 0.5rem;
+  margin: 0.5rem 1rem 0.5rem 0.2rem;
+  border-radius: 0.3rem;
+  border: 0;
+}
+.form .btn-submit {
+  padding: 1rem;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0.3rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px #303030;
+  color: #ffffff;
+  background: linear-gradient(45deg, #ff8800 0%, #ff0000 51%, #fed4a4 100%);
+  box-shadow: 0 0 2rem transparent;
+}
+.form .btn-submit:hover {
+  transform: translateY(-4px);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 2rem #000000;
+}
